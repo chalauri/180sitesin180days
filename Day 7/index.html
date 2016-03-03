@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Dice Black Jack</title>
+		
+		<link rel = "stylesheet" type = "text/css" href="dice.css" />
+		<script src="jquery.js"></script>
+		<script src="dice.js"></script>
+		
+	</head>
+	
+	<body>
+	
+	<center>
+		<div class ="container">
+			<div class="dice">
+				<img class = "diceimage" src="images/dice.png" width=200; height=200 />
+				<img class ="result 1" src="images/dice1.png" width=200; height=200 style="display:none"/>
+				<img class ="result 2" src="images/dice2.png" width=200; height=200 style="display:none"/>
+				<img class ="result 3" src="images/dice3.png" width=200; height=200 style="display:none"/>
+				<img class ="result 4" src="images/dice4.png" width=200; height=200 style="display:none"/>
+				<img class ="result 5" src="images/dice5.png" width=200; height=200 style="display:none"/>
+				<img class ="result 6" src="images/dice6.png" width=200; height=200 style="display:none"/>
+			</div>
+			
+			<div class="text"></div>
+			
+			<div class ="table">
+				<table id="rating" border=1>
+				</table>
+			</div>
+			
+			<div id="button">
+				<div class="button roll clickable" id="roll">ROLL</div>
+				<div class="button stop clickable" id="stop">STOP</div>
+				<div class="button reset clickable" id="reset">RESET</div>
+			</div>
+		
+		</div>
+	</center>
+	</body>
+</html>

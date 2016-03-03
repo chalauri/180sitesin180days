@@ -1,0 +1,41 @@
+ #myImg{
+				position : relative;
+				display: block;
+				margin: 0 auto;
+				border-radius: 25px;
+			}
+			
+			.ribbons {
+			   background: #04485E;
+			   height: 40px;
+			   border-radius: 3px;
+			   margin : 1% 1% 1% 1%
+			}
+			
+			.ques {
+				display: table-cell;
+				text-align : right;
+				width: 25%;
+				font-size : 30
+			}
+			
+			.ans {
+				display: table-cell;
+				text-align : left;
+				font-size : 30
+			}
+			
+			#infoTable {
+				margin : 2% 2% 2% 2%
+			}
+			
+			body {
+			  background-color: #334d4d;
+			  color:  #FFFFCC;
+			  font-size: 20px;
+			}
+
+			a{
+			  color:  #FFFFCC;
+			  text-decoration: underline;
+			}

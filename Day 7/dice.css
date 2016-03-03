@@ -1,0 +1,78 @@
+.container {
+	width: 930px;
+	margin: 0 auto;
+    padding-bottom: 58px;
+	margin-top:100px;
+}
+
+.dice{
+	display:inline-block;
+}
+
+.text{
+	display:inline-block;
+	width: 200px;
+	margin-top: 200px;
+	color: BLUE;
+	font-size: 32px;
+}
+
+.button {
+	display: inline-block;
+	width: 100px;
+	padding: 10px 0;
+	font-size: 18px;
+	background-color: #00ACE9;
+	color: #1d113b;
+	cursor: pointer;
+	margin-top:50px;
+}
+
+.table{
+	display:inline-block;
+	position: relative;
+}
+
+
+.shake {
+	-webkit-animation: shake 1.5s;
+	-moz-animation: shake 1.5s;
+	-ms-animation: shake 1.5s;
+	animation: shake 1.5s;
+}
+
+@-webkit-keyframes shake {
+	0%, 100% {-webkit-transform: translateY(0);} 
+	14%, 43%, 71%, 95%, 100% {-webkit-transform: translateY(30px);
+						 -webkit-animation-timing-function: ease-out; } 
+	29%, 57%, 86% {-webkit-transform: translateY(-30px);
+				   -webkit-animation-timing-function: ease-out} 
+}
+@-moz-keyframes shake {
+	0%, 100% {-moz-transform: translateY(0);} 
+	14%, 43%, 71%, 95%, 100% {-moz-transform: translateY(30px);
+						 -moz-animation-timing-function: ease-out; } 
+	29%, 57%, 86% {-moz-transform: translateY(-30px);
+				   -moz-animation-timing-function: ease-out} 
+}
+@-o-keyframes shake {
+	0%, 100% {-o-transform: translateY(0);} 
+	14%, 43%, 71%, 95%, 100% {-o-transform: translateY(30px);
+						 -o-animation-timing-function: ease-out; } 
+	29%, 57%, 86% {-o-transform: translateY(-30px);
+				   -o-animation-timing-function: ease-out} 
+}
+@-ms-keyframes shake {
+	0%, 100% {-ms-transform: translateY(0);} 
+	14%, 43%, 71%, 95%, 100% {-ms-transform: translateY(30px);
+						 -ms-animation-timing-function: ease-out; } 
+	29%, 57%, 86% {-ms-transform: translateY(-30px);
+				   -ms-animation-timing-function: ease-out} 
+}
+@keyframes shake {
+	0%, 100% {transform: translateY(0);} 
+	14%, 43%, 71%, 95%, 100% {transform: translateY(30px);
+						 animation-timing-function: ease-out; } 
+	29%, 57%, 86% {transform: translateY(-30px);
+				   animation-timing-function: ease-out} 
+}
